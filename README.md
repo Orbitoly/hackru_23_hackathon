@@ -27,7 +27,7 @@ Train phase:
 2. Extract problem model and problem using RoBERTa NLP model, and sentiment of the end of conversation from client side - assuming that tells if the problem was resolved or not.
 3. Create DB - products -> problems -> resolved %.
 
-Prodution phase:
+Production phase:
 1. Input: User's conversation text about a product - realtime.
 2. Extract problem model and problem using RoBERTa NLP model.
 3. Query DB - Identify statistically unresolved problems by comparing sentiment analysis results.
