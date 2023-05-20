@@ -15,7 +15,7 @@ To tackle this problem, we proposed an algorithm that leverages natural language
 
 ## Solution
 
-Our solution involves using the Robustly Optimized BERT Approach (RoBERTa) NLP model to extract the model of the problem mentioned by the user and the specific problem itself.
+Our solution involves using the Robustly Optimized BERT Approach (RoBERTa) NLP model to extract the model of the problem mentioned by the user and the specific problem itself. this done by using a "QA Task" - providing the model with the conversation as a context.
 In addition we've used sentiment analysis on past conversations - analysing how the conversations ended - and only the lines of the client.
 By analyzing past conversations, we apply statistical analysis to identify product-related problems that have not been resolved (bad sentiment in the end of conversation from client side). We've developed a frontend-backend system which simulates Chat with agent and alerts Realtime to the agent side that this product with this problem were statisticlly not resolved in the past.
 This allows the Agent to transfer the call to someone more proffesional, or if it is A bot - this allows the bot to transfer the chat to a human agent.
@@ -42,6 +42,16 @@ Prodution phase:
 ## Demo
 <img width="816" alt="image" src="https://github.com/Orbitoly/hackru_23_hackathon/assets/17669444/a4964576-ec27-40ec-b16a-2c3c7859f29d">
 <img width="809" alt="image" src="https://github.com/Orbitoly/hackru_23_hackathon/assets/17669444/a7a5d35c-080e-445c-a8e0-93a416746bce">
+<img width="866" alt="image" src="https://github.com/Orbitoly/hackru_23_hackathon/assets/17669444/9c9be7a4-fa92-49c1-95de-0b28626941ca">
+
+## Assumptions
+The conversations are 'tagged' with the speaker identity and the side which ended the conversation
+Agent: ...
+Customer: ...
+Agent: ...
+Customer: ...
+-- Agent / Client ended the conversation --
+
 
 ## Getting Started
 
