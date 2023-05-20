@@ -45,12 +45,12 @@ Prodution phase:
 <img width="866" alt="image" src="https://github.com/Orbitoly/hackru_23_hackathon/assets/17669444/9c9be7a4-fa92-49c1-95de-0b28626941ca">
 
 ## Assumptions
-The conversations are 'tagged' with the speaker identity and the side which ended the conversation
-Agent: ...
-Customer: ...
-Agent: ...
-Customer: ...
--- Agent / Client ended the conversation --
+The conversations are 'tagged' with the speaker identity and the side which ended the conversation<br/>
+Agent: ...<br/>
+Customer: ...<br/>
+Agent: ...<br/>
+Customer: ...<br/>
+-- Agent / Client ended the conversation --<br/>
 
 
 ## Getting Started
