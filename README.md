@@ -63,3 +63,4 @@ We would like to express our gratitude to Reichman University and NICE company f
 ## Meet the Team
 
 <img width="741" alt="image" src="https://github.com/Orbitoly/hackru_23_hackathon/assets/17669444/455f58a4-4bbc-4fc6-92d5-00874aa6fbcf">
+Ronny Baturov, Omri Gal Shenhav, Lior Alon, Or Virt
